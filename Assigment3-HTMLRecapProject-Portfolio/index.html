@@ -1,0 +1,285 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Personal Portfolio Page of Menna Khaled"
+    />
+    <title>Menna Khaled | Portfolio</title>
+    <link rel="icon" href="imges/MyIcon.png" />
+  </head>
+  <body>
+    <header>
+      <h2>Menna Khaled</h2>
+
+      <nav>
+        <a href="#about">About</a> | <a href="#skills">Skills</a> |
+        <a href="#contact">Contact</a> |
+      </nav>
+      <hr />
+    </header>
+
+    <main>
+      <!-- Hero / About -->
+      <section id="about">
+        <h1>Welcome To My Portfolio</h1>
+
+        <p>
+          Hello! My name is <strong>Menna Khaled</strong>. I am a
+          <em>Computer Science Student</em> who enjoys learning web development
+          and building useful projects.
+          <br />
+          My goal is to become a professional
+          <mark>Full Stack .NET Developer</mark>.
+        </p>
+
+        <img
+          src="imges/ProfilePhoto.png"
+          alt="Photo of Menna Khaled"
+          width="300"
+        />
+      </section>
+
+      <hr />
+
+      <!-- Skills -->
+      <section id="skills">
+        <h2>My Skills</h2>
+
+        <h3>Technical Skills</h3>
+
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>C#</li>
+          <li>SQL Server</li>
+          <li>Git & GitHub</li>
+        </ul>
+
+        <h3>Learning Journey</h3>
+
+        <ol>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>Bootstrap</li>
+          <li>Node.js</li>
+          <li>CSS</li>
+          <li>ASP.NET MVC</li>
+        </ol>
+
+        <p>
+          I am <strong>passionate</strong> about programming,
+          <em>always learning</em>, and I enjoy creating
+          <mark>real-world projects</mark>.
+        </p>
+      </section>
+
+      <hr />
+
+      <!-- Courses -->
+      <section id="courses">
+        <h2>My Courses</h2>
+
+        <table border="1" cellpadding="8">
+          <caption>
+            Courses Progress
+          </caption>
+
+          <thead>
+            <tr>
+              <th>Course</th>
+              <th>Duration</th>
+              <th>Status</th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr>
+              <td>Frontend</td>
+              <td>6 Months</td>
+              <td>Completed</td>
+            </tr>
+
+            <tr>
+              <td>Backend</td>
+              <td>6 Months</td>
+              <td>In Progress</td>
+            </tr>
+          </tbody>
+
+          <tfoot>
+            <tr>
+              <td colspan="3">Total Courses: 2</td>
+            </tr>
+          </tfoot>
+        </table>
+      </section>
+
+      <hr />
+
+      <!-- Gallery -->
+      <section id="gallery">
+        <h2>Gallery</h2>
+
+        <figure>
+          <img
+            src="imges/GymProject.png"
+            alt="MVC Project Screenshot"
+            width="400"
+          />
+          <figcaption>MVC Project</figcaption>
+        </figure>
+
+        <figure>
+          <img
+            src="imges/TownProject.png"
+            alt="Town Project Screenshot"
+            width="400"
+          />
+          <figcaption>Town Project</figcaption>
+        </figure>
+
+        <figure>
+          <img
+            src="imges/WatchesProject.png"
+            alt="Watches Project Screenshot"
+            width="400"
+          />
+          <figcaption>Watches Project</figcaption>
+        </figure>
+      </section>
+
+      <hr />
+
+      <!-- Contact -->
+      <section id="contact">
+        <h2>Contact Me</h2>
+
+        <form>
+          <label for="name">Full Name:</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Enter your name"
+            required
+          />
+
+          <br /><br />
+
+          <label for="email">Email:</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="example@email.com"
+            required
+          />
+
+          <br /><br />
+
+          <label for="phone">Phone:</label>
+          <input type="tel" id="phone" name="phone" placeholder="01XXXXXXXXX" />
+
+          <br /><br />
+
+          <label for="birthdate">Birth Date:</label>
+          <input type="date" id="birthdate" name="birthdate" />
+
+          <br /><br />
+
+          <label for="subject">Subject:</label>
+          <select id="subject" name="subject">
+            <option>General Question</option>
+            <option>Job Opportunity</option>
+          </select>
+
+          <br /><br />
+
+          <p>Preferred Contact Method</p>
+
+          <input type="radio" id="email-contact" name="contact-method" />
+
+          <label for="email-contact">Email</label>
+
+          <br />
+
+          <input type="radio" id="phone-contact" name="contact-method" />
+
+          <label for="phone-contact">Phone</label>
+
+          <br /><br />
+
+          <input type="checkbox" id="agree" name="agree" required />
+
+          <label for="agree"> I agree to the terms and conditions. </label>
+
+          <br /><br />
+
+          <label for="message">Message:</label>
+          <br />
+
+          <textarea
+            id="message"
+            name="message"
+            rows="5"
+            cols="30"
+            placeholder="Write your message here..."
+          ></textarea>
+
+          <br /><br />
+
+          <input type="submit" />
+          <input type="reset" />
+        </form>
+      </section>
+
+      <hr />
+
+      <!-- FAQ -->
+      <section id="faq">
+        <h2>Frequently Asked Questions</h2>
+
+        <details>
+          <summary>What is your major?</summary>
+          <p>I study Computer Science.</p>
+        </details>
+
+        <details>
+          <summary>What technologies are you learning?</summary>
+          <p>HTML, CSS, JavaScript, SQL, and ASP.NET MVC.</p>
+        </details>
+
+        <details>
+          <summary>Can I contact you for projects?</summary>
+          <p>Yes, you are welcome to contact me.</p>
+        </details>
+      </section>
+    </main>
+
+    <hr />
+
+    <!-- Footer -->
+    <footer>
+      <address>
+        Email: mennakhaled398@gmail.com
+        <br />
+        Giza, Egypt
+      </address>
+
+      <p>&copy; 2026 Menna Khaled. All Rights Reserved.</p>
+
+      <a href="https://github.com/menna398">GitHub</a> |
+      <a
+        href="https://www.linkedin.com/in/menna-khaled-716682298?utm_source=share_via&utm_content=profile&utm_medium=member_android"
+        >LinkedIn</a
+      >
+      |
+      <a href="https://www.facebook.com/menna.khaled.5055">Facebook</a>
+    </footer>
+  </body>
+</html>
