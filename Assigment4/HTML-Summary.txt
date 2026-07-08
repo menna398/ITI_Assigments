@@ -1,0 +1,41 @@
+# HTML Summary
+
+## What is HTML?
+HTML (HyperText Markup Language) is the standard markup language used to create and structure web pages. HTML is the foundation of every website and works together with CSS for styling and JavaScript for interactivity.
+
+## Why is HTML Important?
+* Creates the basic structure of web pages.
+* Organizes content in a clear and meaningful way.
+* Supports semantic elements for better accessibility.
+* Supported by all modern web browsers.
+
+## Commonly Used HTML Tags
+
+* <html> : Root element of the page.
+* <head> : Contains metadata and page information.
+* <title> : Sets the page title.
+* <meta> : Provides metadata.
+* <body> : Contains the visible content.
+* <h1> to <h6> : Headings.
+* <p> : Paragraph.
+* <a> : Hyperlink.
+* <img> : Image.
+* <div> : Block container.
+* <span> : Inline container.
+* <section> : Semantic section.
+* <header> : Header section.
+* <footer> : Footer section.
+* <nav> : Navigation links.
+* <table>, <tr>, <td>, <th> : Tables.
+* <form> : Form.
+* <input> : User input.
+* <label> : Label for form controls.
+* <button> : Button.
+* <select> and <option> : Dropdown list.
+* <textarea> : Multi-line text input.
+* <ul>, <ol>, <li> : Lists.
+* <br> : Line break.
+* <hr> : Horizontal line.
+
+## Conclusion
+HTML is the first language every web developer learns because it builds the structure of web pages. Understanding HTML well makes it easier to learn CSS, JavaScript, and modern web development frameworks.
