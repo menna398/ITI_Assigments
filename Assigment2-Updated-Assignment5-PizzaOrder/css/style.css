@@ -1,0 +1,42 @@
+.Container a {
+  text-decoration: none;
+  color: #ff69b4;
+  font-size: large;
+  font-weight: bold;
+  padding: 2em;
+}
+
+h1,
+h2 {
+  color: #a13c6f;
+}
+
+p {
+  color: rgba(0, 0, 0, 0.646);
+}
+
+fieldset {
+  background-color: #fff5fa;
+  border: solid #ffc0cb;
+}
+
+fieldset input,
+fieldset textarea {
+  background-color: white;
+}
+
+fieldset:hover {
+  background-color: #f7d6e8;
+  border-color: #ff69b4;
+}
+
+fieldset:hover input,
+fieldset:hover textarea {
+  background-color: #fce4ec;
+}
+
+.buttons-div input {
+  color: #a13c6f;
+  background-color: #fce4ec;
+  border: solid #ffc0cb;
+}
