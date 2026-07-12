@@ -1,0 +1,192 @@
+:root{
+    --primary:#f7c8e0;
+    --secondary:#fdeff4;
+    --text:#3f3737;
+    --white:white;
+}
+
+
+/* Class Selector */
+
+.header{
+
+    background:var(--primary);
+
+    text-align:center;
+
+    padding:20px;
+}
+
+/* ID Selector */
+
+#name{
+
+    color:#8a4f7d;
+
+}
+
+/* Element Selector */
+
+h2{
+
+    margin-bottom:10px;
+
+}
+
+/* Descendant Selector */
+
+.profile-card p{
+
+    font-size:1em;
+
+}
+
+/* Child Selector */
+
+.skills > ul{
+
+    margin-left:20px;
+
+}
+
+/* Group Selector */
+
+section,
+footer{
+
+    margin:20px;
+
+    padding:20px;
+
+    background-color:var(--secondary);
+
+    border-radius:10px;
+
+}
+
+/* Profile Image */
+
+.profile-image{
+
+    width:200px;
+
+    height:200px;
+
+}
+
+/* Job Title */
+
+.job-title{
+
+    font-size:1.2em;
+
+}
+
+/* Contact Button */
+
+.contact-button{
+
+    background-color:#f7c8e0;
+
+    color:#444;
+
+    border:none;
+
+    padding:12px 25px;
+
+    margin-left:20px;
+
+    cursor:pointer;
+
+}
+
+/* Another Cursor */
+
+.about{
+
+    cursor:help;
+
+}
+
+
+.disabled-button{
+
+    cursor:not-allowed;
+
+}
+
+/* Width & Height */
+
+.overflow-box{
+
+    width:50%;
+
+    height:120px;
+
+    overflow:auto;
+
+}
+
+/* CSS Units */
+
+.profile-card{
+
+    width:70%;
+
+    padding:2rem;
+
+}
+
+.skills{
+
+    width:60vw;
+
+}
+
+.footer{
+
+    min-height:10vh;
+
+    text-align:center;
+
+    padding:20px;
+
+}
+
+/* Specificity Example */
+
+p{
+
+    color:gray;
+
+}
+
+.profile-card p{
+
+    color:brown;
+
+}
+
+#name{
+
+    color:purple;
+
+}
+
+/* Local Variable */
+
+.contact-button{
+
+    --button-color:#d89ac3;
+
+    background-color:var(--button-color);
+
+}
+
+/* !important Example */
+
+.contact-button{
+
+    background-color:#e452ac !important;
+
+}
