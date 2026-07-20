@@ -239,7 +239,7 @@ main img {
 }
 
 .main-content .text-Div2 {
-  width: 45%;
+  max-width: 45%;
 }
 
 .main-content .img-Div2 {
@@ -256,6 +256,7 @@ main img {
     flex-direction: column;
     gap: 40px;
     padding: 30px 20px;
+    width: 100%;
   }
 
   .text-Div,
@@ -263,11 +264,23 @@ main img {
   .img-Div,
   .img-Div2 {
     width: 100%;
-    flex: none;
+    padding: 0px;
   }
 
   .img-Div img,
   .img-Div2 img {
     width: 100%;
   }
+
+  .third-page{
+    padding: 0px;
+  }
+}
+
+.text-div4 p , .text-Div2 p , .gallery-div p{
+  color: #686868;
+}
+
+footer{
+  background: #513535;
 }
